@@ -25,31 +25,68 @@ public class LogIn extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(1920, 1080));
+        setMinimumSize(new java.awt.Dimension(1920, 1080));
+        setSize(new java.awt.Dimension(1920, 1080));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("asdasfasfasf");
+        jTextField2.setBackground(new java.awt.Color(0, 0, 0, 0));
+        jTextField2.setText("Password");
+        jTextField2.setBorder(null);
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 490, 260, 40));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(223, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(114, 114, 114))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(138, 138, 138)
-                .addComponent(jLabel1)
-                .addContainerGap(146, Short.MAX_VALUE))
-        );
+        jTextField3.setBackground(new java.awt.Color(0, 0, 0, 0));
+        jTextField3.setText("Username");
+        jTextField3.setBorder(null);
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 410, 260, 40));
+
+        jButton2.setBackground(new java.awt.Color(0, 0, 0, 0));
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Elementz\\Documents\\NetBeansProjects\\Immortals\\src\\main\\java\\ButtonMember.png")); // NOI18N
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(815, 655, 289, 52));
+
+        jButton3.setBackground(new java.awt.Color(0, 0, 0, 0));
+        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Elementz\\Documents\\NetBeansProjects\\Immortals\\src\\main\\java\\ButtonGuest.png")); // NOI18N
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(815, 724, 289, 52));
+
+        jButton4.setBackground(new java.awt.Color(0, 0, 0, 0));
+        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Elementz\\Documents\\NetBeansProjects\\Immortals\\src\\main\\java\\ButtonAdmin.png")); // NOI18N
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(815, 790, 289, 52));
+
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Elementz\\Documents\\NetBeansProjects\\Immortals\\src\\main\\java\\ButtonLogIn.png")); // NOI18N
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(815, 590, 289, 52));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Elementz\\Documents\\NetBeansProjects\\Immortals\\src\\main\\java\\LoginForm.png")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1920, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -87,6 +124,12 @@ public class LogIn extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
     // End of variables declaration//GEN-END:variables
 }
